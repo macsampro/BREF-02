@@ -84,11 +84,12 @@ input{
   border-radius: 0.3rem;
   min-height: 20px;
   border: none;
-  min-height: 35px;
-  
-
-  
+  min-height: 35px;  
 }
+
+input:focus { 
+    outline: none !important;
+ }
 
 .button {
   font-size: 0.9rem;

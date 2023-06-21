@@ -18,9 +18,9 @@
 
 
     if (email === "") {
-      erroremail.innerText = "L'adresse e-mail n'est pas valide";
-      inputmail.style.borderColor = "red";
-      erroremail.style.color = "red";
+      mailerror.innerText = "L'adresse e-mail n'est pas valide";
+      mailinput.style.border = "solid red";
+      mailerror.style.color = "red";
     
       
     }else if(!emailRegex.test(email)){
