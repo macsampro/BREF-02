@@ -15,40 +15,38 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
   <body>
     <section class="learn">
       <!-- Début de la zone d'entrainement -->
-      <div class="card" >
+      <div class="card">
         <h1>Je me connecte avec mes identifiants</h1>
+
+        <form class="formulaire" action="" method="get">
+          <div class="email">
+            <label for="">adresse email</label>
+            <input type="email" id="mailinput" required placeholder="chuck@norris.com" />
+          </div>
+
+          <div class="motdepasse">
+            <label for="">mot de passe</label>
+            <input type="password" id="passwordinput" placeholder="********" />
+          </div>
+
+          <div class="souvenir">
+            <input type="checkbox"/>
+            <label>se souvenir de moi</label>
+          </div>
+
+          <div class="button">
+            <input type="submit" id="buttoninput" value="Connexion" class="button" />
+          </div>
+        </form>
       </div>
-      
-      <form action="" method="get" id="myform">
-  
-        <label for="adresse">adresse email :</label>
-        <br>
-        <input type="email" id="adresse" name="adresse" required>
-        <br>
-        <label for="MDP">mot de passe :</label>
-        <br>
-        <input type="password" id="MDP" name="MDP" required>
-        <br>
-        <input type="checkbox" id="souvenir-moi" name="souvenir-moi">
-        <label for="souvenir-moi">Se souvenir de moi</label>
-        <br>
-        <button class="button">connexion</button>
-      </form>
-  
+
       <!-- Fin de la zone d'entrainement -->
     </section>
-  
-    <section class="preview" data-content="challenge 4">
-      <img width="444px" src="img/objectif/login-form.png" alt="formulaire de connexion" />
-    </section>
   </body>
-  >
-
 </html>
