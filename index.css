@@ -13,6 +13,95 @@
   box-sizing: border-box;
 }
 
-.connexion{
+.learn {
+  font-family: "Poppins";
+  background-color: rgb(247, 248, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 10px 29px rgba(0, 0, 0, 0.38);
+  max-width: 400px;
+  min-height: 450px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-top: 2.5rem;
+}
+
+.email {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+label{
+  font-size:0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.motdepasse {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+#passwordinput,
+#mailinput{
+  padding-left: 20px;
+}
+
+.souvenir {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.souvenir>label{
+  padding-left: 10px;
+}
+
+input{
+  background-color:#e6e6e6;
+  border-radius: 0.3rem;
+  min-height: 20px;
+  border: none;
+  min-height: 35px;
+  
+
+  
+}
+
+.button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 304px;
+  min-height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  border-style: none;
+  text-align: center;
+  background-color: #7c47c0;
+  border: none;
+  border-radius: 10px;
   
 }

@@ -15,24 +15,38 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
-<body>
-  <section class="learn">
-    <!-- Début de la zone d'entrainement -->
-    <div class="card" >
-      <h1>Je me connecte avec mes identifiants</h1>
-    </div>
-    
+  <body>
+    <section class="learn">
+      <!-- Début de la zone d'entrainement -->
+      <div class="card">
+        <h1>Je me connecte avec mes identifiants</h1>
 
-<button class="button">coucou</button>
-    <!-- Fin de la zone d'entrainement -->
-  </section>
+        <form class="formulaire" action="" method="get">
+          <div class="email">
+            <label for="">adresse email</label>
+            <input type="email" id="mailinput" required placeholder="chuck@norris.com" />
+          </div>
 
-  <section class="preview" data-content="challenge 4">
-    <img width="444px" src="img/objectif/login-form.png" alt="formulaire de connexion" />
-  </section>
-</body>
+          <div class="motdepasse">
+            <label for="">mot de passe</label>
+            <input type="password" id="passwordinput" placeholder="********" />
+          </div>
 
+          <div class="souvenir">
+            <input type="checkbox"/>
+            <label>se souvenir de moi</label>
+          </div>
+
+          <div class="button">
+            <input type="submit" id="buttoninput" value="Connexion" class="button" />
+          </div>
+        </form>
+      </div>
+
+      <!-- Fin de la zone d'entrainement -->
+    </section>
+  </body>
 </html>
