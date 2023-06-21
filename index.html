@@ -6,8 +6,6 @@
 
     <title>Challenge 4 - HTML & CSS</title>
 
-    <!-- ce css permet simplement de mettre en page la présentation -->
-    <link rel="stylesheet" href="../css/presentation.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,15 +24,15 @@
 
         <form class="formulaire" action="" method="get">
           <div class="email">
-            <label for="mailinput">adresse email</label>
-            <input type="email" id="mailinput" required placeholder="chuck@norris.com" autocomplete="email"/>
-            <span class="emailError"></span>
+            <label for="inputmail">adresse email</label>
+            <input type="email" id="inputmail" required placeholder="chuck@norris.com" autocomplete="email"/>
+            <span id="erroremail"></span>
           </div>
 
           <div class="motdepasse">
-            <label for="passwordinput">mot de passe</label>
-            <input type="password" id="passwordinput" placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" autocomplete="new-password" />
-            <span class="passwordError"></span>
+            <label for="inputpassword">mot de passe</label>
+            <input type="password" id="inputpassword" placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" autocomplete="new-password" />
+            <span class="errorpassword"></span>
           </div>
 
           <div class="souvenir">
