@@ -13,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer ></script>
   </head>
 
   <body>
@@ -26,13 +26,15 @@
 
         <form class="formulaire" action="" method="get">
           <div class="email">
-            <label for="">adresse email</label>
-            <input type="email" id="mailinput" required placeholder="chuck@norris.com" />
+            <label for="mailinput">adresse email</label>
+            <input type="email" id="mailinput" required placeholder="chuck@norris.com" autocomplete="email"/>
+            <span class="emailError"></span>
           </div>
 
           <div class="motdepasse">
-            <label for="">mot de passe</label>
-            <input type="password" id="passwordinput" placeholder="********" />
+            <label for="passwordinput">mot de passe</label>
+            <input type="password" id="passwordinput" placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" autocomplete="new-password" />
+            <span class="passwordError"></span>
           </div>
 
           <div class="souvenir">
