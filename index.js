@@ -4,7 +4,7 @@
   let button = document.getElementById("buttoninput");
   button.addEventListener("click", function(){
     validationMail();
-    // validationPass();
+    validationPass();
     console.log(button);
   })
   // }); 
@@ -35,4 +35,25 @@
     }
 };
   
+
+  //fonction verification mail:
+  function validationPass() {
+    let mdpinput = document.getElementById("inputpassword"); 
+    let mdperror = document.getElementById("errorpassword");
+    let mdp =  mdpinput.value;
+    
+    
+    if (mdp === ""){
+      mdperror.innerText = "mot de passe invalide";
+      mdpinput.style.border = "solid red";
+      mdperror.style.color = "red";
+      
+    }else{
+      mdpinput.style.border= "";
+      mdperror.innerText = "";
+
+    }
+};
+  
+
 

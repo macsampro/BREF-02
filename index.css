@@ -62,8 +62,8 @@ label{
   margin-bottom: 1.5rem;
 }
 
-#passwordinput,
-#mailinput{
+#inputpassword,
+#inputmail{
   padding-left: 20px;
 }
 

@@ -6,14 +6,14 @@
 
     <title>Challenge 4 - HTML & CSS</title>
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
-    <script src="./index.js" defer ></script>
+    <script src="./index.js" defer></script>
   </head>
 
   <body>
@@ -25,23 +25,37 @@
         <form class="formulaire" action="" method="get">
           <div class="email">
             <label for="inputmail">adresse email</label>
-            <input type="email" id="inputmail" required placeholder="chuck@norris.com"/>
+            <input
+              type="email"
+              id="inputmail"
+              required
+              placeholder="chuck@norris.com"
+            />
             <span id="erroremail"></span>
           </div>
 
           <div class="motdepasse">
             <label for="inputpassword">mot de passe</label>
-            <input type="password" id="inputpassword" placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" autocomplete="new-password" />
-            <span class="errorpassword"></span>
+            <input
+              type="password"
+              id="inputpassword"
+              placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;"
+            />
+            <span id="errorpassword"></span>
           </div>
 
           <div class="souvenir">
-            <input type="checkbox"/>
+            <input type="checkbox" />
             <label>se souvenir de moi</label>
           </div>
 
           <div class="button">
-            <input type="submit" id="buttoninput" value="Connexion" class="button" />
+            <input
+              type="submit"
+              id="buttoninput"
+              value="Connexion"
+              class="button"
+            />
           </div>
         </form>
       </div>
